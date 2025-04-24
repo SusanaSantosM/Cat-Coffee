@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -154,23 +154,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Sin t\xEDtulo 6_202504232155_06467_0"
+      name: botom
       rect:
         serializedVersion: 2
-        x: 645
-        y: 728
-        width: 103
-        height: 92
+        x: 640
+        y: 723
+        width: 112
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 92e91bdc94ddcf810800000000000000
-      internalID: 1800557260094676521
+      spriteID: 52b609e3ac617fb4488da25904c97f91
+      internalID: 847480943
       vertices: []
       indices: 
       edges: []
@@ -179,42 +179,20 @@ TextureImporter:
       name: "Sin t\xEDtulo 6_202504232155_06467_1"
       rect:
         serializedVersion: 2
-        x: 817
-        y: 736
-        width: 293
-        height: 78
+        x: 816
+        y: 732
+        width: 292
+        height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cfd610eef43b20ae0800000000000000
-      internalID: -1584506963004133892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sin t\xEDtulo 6_202504232155_06467_2"
-      rect:
-        serializedVersion: 2
-        x: 651
-        y: 573
-        width: 103
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d655c7e04fc8bc3d0800000000000000
-      internalID: -3185297331591555731
+      spriteID: 1c0eb3eb4c6c4b94180f132a967fc26a
+      internalID: -1412590579
       vertices: []
       indices: 
       edges: []
@@ -223,20 +201,20 @@ TextureImporter:
       name: "Sin t\xEDtulo 6_202504232155_06467_3"
       rect:
         serializedVersion: 2
-        x: 820
-        y: 599
-        width: 293
-        height: 78
+        x: 647
+        y: 572
+        width: 109
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1f2b5993a5dfbc920800000000000000
-      internalID: 3011779339782304497
+      spriteID: d9b6d0d67cb71f2458d09d343a745d24
+      internalID: 189932516
       vertices: []
       indices: 
       edges: []
@@ -245,42 +223,64 @@ TextureImporter:
       name: "Sin t\xEDtulo 6_202504232155_06467_4"
       rect:
         serializedVersion: 2
-        x: 659
-        y: 400
-        width: 103
-        height: 92
+        x: 818
+        y: 595
+        width: 294
+        height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6a33b20fe21c44c60800000000000000
-      internalID: 7801572861854561190
+      spriteID: b7757d64ebc32874eafe4a24b489c411
+      internalID: 1507006220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sin t\xEDtulo 6_202504232155_06467_5"
+      name: "Sin t\xEDtulo 6_202504232155_06467_6"
       rect:
         serializedVersion: 2
-        x: 815
-        y: 423
-        width: 293
-        height: 78
+        x: 657
+        y: 399
+        width: 107
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d82db46cfd0635df0800000000000000
-      internalID: -192703844825967987
+      spriteID: b09886ff984fbae4484b7aa1666bd051
+      internalID: -1779921500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sin t\xEDtulo 6_202504232155_06467_7"
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 422
+        width: 301
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bfb48362acf134389c666d7d47d5f9
+      internalID: 1411622178
       vertices: []
       indices: 
       edges: []
@@ -289,7 +289,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 544d3516963986845a4d5bac92095261
     internalID: 0
     vertices: []
     indices: 
@@ -298,7 +298,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Sin t\xEDtulo 6_202504232155_06467_1": -1412590579
+      "Sin t\xEDtulo 6_202504232155_06467_2": 568927265
+      "Sin t\xEDtulo 6_202504232155_06467_3": 189932516
+      "Sin t\xEDtulo 6_202504232155_06467_4": 1507006220
+      "Sin t\xEDtulo 6_202504232155_06467_5": -1974314794
+      "Sin t\xEDtulo 6_202504232155_06467_6": -1779921500
+      "Sin t\xEDtulo 6_202504232155_06467_7": 1411622178
+      "Sin t\xEDtulo 6_202504232155_06467_8": 1635013961
+      botom: 847480943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
