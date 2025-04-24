@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      prota_600x1000_202504232151_59609_0: 996647264360198230
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
