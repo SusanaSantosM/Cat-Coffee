@@ -20,5 +20,7 @@ public class PanelManager : MonoBehaviour
         HelpPanel.SetActive(false);
 
         panel.SetActive(true);
+        
     }
+
 }
