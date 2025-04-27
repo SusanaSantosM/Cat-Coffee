@@ -1,26 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelManager : MonoBehaviour 
+public class LvelManager : MonoBehaviour
 {
     // Métodos para ir a cada escena
-    public void BotonStart() 
+    public void BotonStart()
     {
         SceneManager.LoadScene(1);
     }
 
     public void BotonOption()
     {
+        Debug.Log("Boton Opciones");
     }
 
-    public void BotonEnd() 
+    public void BotonHelp()
+    {
+        Debug.Log("Boton Ayuda");
+    }
+
+    public void BotonEnd()
     {
         Debug.Log("Salir del juego");
         Application.Quit();
     }
-
-    //public void BotonStore(){}
-    
 }
