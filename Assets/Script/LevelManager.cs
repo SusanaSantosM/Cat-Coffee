@@ -9,7 +9,7 @@ public class LvelManager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void BotonOption()
+    /*public void BotonOption()
     {
         Debug.Log("Boton Opciones");
     }
@@ -17,7 +17,7 @@ public class LvelManager : MonoBehaviour
     public void BotonHelp()
     {
         Debug.Log("Boton Ayuda");
-    }
+    }*/
 
     public void BotonEnd()
     {
