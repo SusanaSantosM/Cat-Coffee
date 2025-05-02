@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 10ede060a5df75640894cb26d0fd2b98
+guid: 1aa1a7590a7005b498cb4f462fa15697
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4357755821530394213
-    second: BackgroundInicio_1920x1080_0
+      213: 6869088012450059892
+    second: Cafeteria_background_1920x1080_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 108
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BackgroundInicio_1920x1080_0
+      name: Cafeteria_background_1920x1080_0
       rect:
         serializedVersion: 2
         x: 0
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b915acf2b242683c0800000000000000
-      internalID: -4357755821530394213
+      spriteID: 476daf04727e35f50800000000000000
+      internalID: 6869088012450059892
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BackgroundInicio_1920x1080_0: -4357755821530394213
+      Cafeteria_background_1920x1080_0: 6869088012450059892
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
