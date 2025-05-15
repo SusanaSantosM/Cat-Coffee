@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Objetos
+  - Cliente
   layers:
   - Default
   - TransparentFX
