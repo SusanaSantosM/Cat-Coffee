@@ -1,33 +1,65 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 
-public class DragAndDrop : MonoBehaviour
+public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler
 {
     private Vector3 startPosition;
     private Vector3 mousePosition;
 
+    private Vector3 offset;
+    private bool arrastrando = false;
+    private Transform puntoDeColocacion;  //Se asigna desde el inspector
 
-    private void OnMouseDown()
-    {   
+   
+    // Método llamado al hacer clic
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        offset = transform.position - Camera.main.ScreenToWorldPoint(eventData.position);
+        arrastrando = true;
+
+
+
         gameObject.GetComponent<Collider2D>().enabled = false;
 
         // Guarda la posición inicial
         startPosition = transform.position;
+
+        Debug.Log("OnPointerDown ejecutado");
     }
 
-    private void OnMouseDrag() 
-    {
-        // El objeto persiga al ratón en la posición de la escena y no la pantalla
-        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = new Vector3(mousePosition.x, mousePosition.y, transform.position.z);
 
+    // Método llamado mientras se arrastra
+    public void OnDrag(PointerEventData eventData)
+    {
+        if (arrastrando)
+        {
+            Vector3 nuevaPosicion = Camera.main.ScreenToWorldPoint(eventData.position) + offset;
+            nuevaPosicion.z = 0;
+            transform.position = nuevaPosicion;
+        }
     }
 
-    private void OnMouseUp()
+
+    // Método llamado al soltar el clic
+    public void OnPointerUp(PointerEventData eventData)
     {
+        arrastrando = false;
+
+        // Verificar si está cerca de la máquina de café
+        if (puntoDeColocacion != null && Vector3.Distance(transform.position, puntoDeColocacion.position) < 1.0f)
+        {
+            // Colocar el envase en la posición exacta
+            transform.position = puntoDeColocacion.position;
+            Debug.Log("Envase colocado correctamente.");
+        }
+
+
+
         gameObject.GetComponent<Collider2D>().enabled = true;
+        Debug.Log("OnPointerUp ejecutado");
 
 
         // Dectecta las colisiones
@@ -86,5 +118,45 @@ public class DragAndDrop : MonoBehaviour
         {
             transform.position = startPosition;
         }
+
     }
+
+
+
+    // Asignar el punto de colocación (desde otro script o Inspector)
+    public void SetPuntoDeColocacion(Transform punto)
+    {
+        puntoDeColocacion = punto;
+    }
+
+
+
+    /*
+   private void OnMouseDown()
+   {   
+       gameObject.GetComponent<Collider2D>().enabled = false;
+
+       // Guarda la posición inicial
+       startPosition = transform.position;
+   }
+
+   private void OnMouseDrag() 
+   {
+       // El objeto persiga al ratón en la posición de la escena y no la pantalla
+       mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+       transform.position = new Vector3(mousePosition.x, mousePosition.y, transform.position.z);
+
+   }
+
+   private void OnMouseUp()
+   {
+       gameObject.GetComponent<Collider2D>().enabled = true;
+
+
+       // Dectecta las colisiones
+       DetectColliders();
+
+       // Detecta el limite de pantalla
+       ScreenLimit();
+   }*/
 }
