@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 67c5fc4ed7c972944bb3bfb6c5a0f58a
+guid: 2aa414983f8a4bf428f61b1b9dac7276
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2803472186929253672
-    second: personaje1_1920x1080_0
+      213: -8351030583295275230
+    second: boy1_1920x1080_0
   - first:
-      213: 4880900360478478889
-    second: personaje1_1920x1080_1
+      213: -7502355671675696670
+    second: boy1_1920x1080_1
   - first:
-      213: 4113320126850324488
-    second: personaje1_1920x1080_2
+      213: 1813372646385597499
+    second: boy1_1920x1080_2
   - first:
-      213: 8461365931638326299
-    second: personaje1_1920x1080_3
+      213: -6207198559454296029
+    second: boy1_1920x1080_3
   - first:
-      213: -5526502766020606104
-    second: personaje1_1920x1080_4
+      213: 8120624327337411211
+    second: boy1_1920x1080_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 108
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -151,111 +151,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: personaje1_1920x1080_0
+      name: boy1_Amargo
       rect:
         serializedVersion: 2
-        x: 23
-        y: 246
-        width: 351
-        height: 539
+        x: 10
+        y: 169
+        width: 355
+        height: 525
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8d2f46046e01819d0800000000000000
-      internalID: -2803472186929253672
+      spriteID: e9032b67746dd324e931ff7995054286
+      internalID: 897980654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personaje1_1920x1080_1
+      name: boy1_triste
       rect:
         serializedVersion: 2
-        x: 397
-        y: 245
-        width: 351
-        height: 539
+        x: 385
+        y: 152
+        width: 355
+        height: 525
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 922556a84017cb340800000000000000
-      internalID: 4880900360478478889
+      spriteID: f91d124bc7fdbef41a3c9a2bb8f54cb5
+      internalID: -1442352239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personaje1_1920x1080_2
+      name: boy1_feliz
       rect:
         serializedVersion: 2
-        x: 773
-        y: 246
-        width: 351
-        height: 539
+        x: 771
+        y: 142
+        width: 355
+        height: 525
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 808d060bcd2751930800000000000000
-      internalID: 4113320126850324488
+      spriteID: b79b4c40f49da9942b91ab729da8d589
+      internalID: 197162563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personaje1_1920x1080_3
+      name: boy1_emocionado
       rect:
         serializedVersion: 2
-        x: 1147
-        y: 245
-        width: 359
-        height: 539
+        x: 1155
+        y: 132
+        width: 355
+        height: 525
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b1405ed0c7fcc6570800000000000000
-      internalID: 8461365931638326299
+      spriteID: 9871f7bc043ab2f439e05a401af5687d
+      internalID: -2111507301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personaje1_1920x1080_4
+      name: boy1_satisfecho
       rect:
         serializedVersion: 2
-        x: 1525
-        y: 245
-        width: 351
-        height: 539
+        x: 1534
+        y: 132
+        width: 355
+        height: 525
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 867c025d30bed43b0800000000000000
-      internalID: -5526502766020606104
+      spriteID: a3bf4e0579600834c9277e2cab5407e1
+      internalID: 1569434403
       vertices: []
       indices: 
       edges: []
@@ -264,7 +264,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a0a69ae6379373445ad61b4fe8eb5221
+    spriteID: adcedb4c7a321cf4b80659e740786659
     internalID: 0
     vertices: []
     indices: 
@@ -274,11 +274,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      personaje1_1920x1080_0: -2803472186929253672
-      personaje1_1920x1080_1: 4880900360478478889
-      personaje1_1920x1080_2: 4113320126850324488
-      personaje1_1920x1080_3: 8461365931638326299
-      personaje1_1920x1080_4: -5526502766020606104
+      boy1_Amargo: 897980654
+      boy1_emocionado: -2111507301
+      boy1_feliz: 197162563
+      boy1_satisfecho: 1569434403
+      boy1_triste: -1442352239
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 67c5fc4ed7c972944bb3bfb6c5a0f58a
+guid: 7f39d288d9bbf204d8ebaea608d4ab7c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2803472186929253672
-    second: personaje1_1920x1080_0
+      213: 7701036070355054684
+    second: "Sin t\xEDtulo 24_202505272316_32201_0"
   - first:
-      213: 4880900360478478889
-    second: personaje1_1920x1080_1
+      213: 32732363389182041
+    second: "Sin t\xEDtulo 24_202505272316_32201_1"
   - first:
-      213: 4113320126850324488
-    second: personaje1_1920x1080_2
+      213: -895440548199592087
+    second: "Sin t\xEDtulo 24_202505272316_32201_2"
   - first:
-      213: 8461365931638326299
-    second: personaje1_1920x1080_3
+      213: 6198147872612980402
+    second: "Sin t\xEDtulo 24_202505272316_32201_3"
   - first:
-      213: -5526502766020606104
-    second: personaje1_1920x1080_4
+      213: 4384179743740449888
+    second: "Sin t\xEDtulo 24_202505272316_32201_4"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -151,111 +151,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: personaje1_1920x1080_0
+      name: "Sin t\xEDtulo 24_202505272316_32201_0"
       rect:
         serializedVersion: 2
-        x: 23
-        y: 246
-        width: 351
-        height: 539
+        x: 15
+        y: 262
+        width: 352
+        height: 532
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8d2f46046e01819d0800000000000000
-      internalID: -2803472186929253672
+      spriteID: 08795c469e93d224592d1b8346faaf54
+      internalID: 7701036070355054684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personaje1_1920x1080_1
+      name: "Sin t\xEDtulo 24_202505272316_32201_1"
       rect:
         serializedVersion: 2
-        x: 397
-        y: 245
-        width: 351
-        height: 539
+        x: 376
+        y: 251
+        width: 352
+        height: 532
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 922556a84017cb340800000000000000
-      internalID: 4880900360478478889
+      spriteID: 827becb67bbcb994fa313bb6c437d23e
+      internalID: 32732363389182041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personaje1_1920x1080_2
+      name: "Sin t\xEDtulo 24_202505272316_32201_2"
       rect:
         serializedVersion: 2
-        x: 773
-        y: 246
-        width: 351
-        height: 539
+        x: 766
+        y: 252
+        width: 352
+        height: 532
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 808d060bcd2751930800000000000000
-      internalID: 4113320126850324488
+      spriteID: dfad23213d389294098ff59ed329fa93
+      internalID: -895440548199592087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personaje1_1920x1080_3
+      name: "Sin t\xEDtulo 24_202505272316_32201_3"
       rect:
         serializedVersion: 2
-        x: 1147
-        y: 245
-        width: 359
-        height: 539
+        x: 1154
+        y: 258
+        width: 352
+        height: 532
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b1405ed0c7fcc6570800000000000000
-      internalID: 8461365931638326299
+      spriteID: fe1da818f5c7cba42ad5cdf4aa0d5394
+      internalID: 6198147872612980402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personaje1_1920x1080_4
+      name: "Sin t\xEDtulo 24_202505272316_32201_4"
       rect:
         serializedVersion: 2
-        x: 1525
-        y: 245
-        width: 351
-        height: 539
+        x: 1537
+        y: 254
+        width: 352
+        height: 532
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 867c025d30bed43b0800000000000000
-      internalID: -5526502766020606104
+      spriteID: c1e09c3cba31d20478b5dcb0274ce358
+      internalID: 4384179743740449888
       vertices: []
       indices: 
       edges: []
@@ -264,7 +264,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a0a69ae6379373445ad61b4fe8eb5221
+    spriteID: 6d904dca6e9aa10439c6089742e8f644
     internalID: 0
     vertices: []
     indices: 
@@ -274,11 +274,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      personaje1_1920x1080_0: -2803472186929253672
-      personaje1_1920x1080_1: 4880900360478478889
-      personaje1_1920x1080_2: 4113320126850324488
-      personaje1_1920x1080_3: 8461365931638326299
-      personaje1_1920x1080_4: -5526502766020606104
+      "Sin t\xEDtulo 24_202505272316_32201_0": 7701036070355054684
+      "Sin t\xEDtulo 24_202505272316_32201_1": 32732363389182041
+      "Sin t\xEDtulo 24_202505272316_32201_2": -895440548199592087
+      "Sin t\xEDtulo 24_202505272316_32201_3": 6198147872612980402
+      "Sin t\xEDtulo 24_202505272316_32201_4": 4384179743740449888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

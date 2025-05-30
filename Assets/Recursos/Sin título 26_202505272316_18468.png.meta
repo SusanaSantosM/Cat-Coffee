@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: 67c5fc4ed7c972944bb3bfb6c5a0f58a
+guid: 3de69c1461fbb054d9eded4605fe6054
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2803472186929253672
-    second: personaje1_1920x1080_0
+      213: -5429020880836030152
+    second: "Sin t\xEDtulo 26_202505272316_18468_0"
   - first:
-      213: 4880900360478478889
-    second: personaje1_1920x1080_1
-  - first:
-      213: 4113320126850324488
-    second: personaje1_1920x1080_2
-  - first:
-      213: 8461365931638326299
-    second: personaje1_1920x1080_3
-  - first:
-      213: -5526502766020606104
-    second: personaje1_1920x1080_4
+      213: 5600387377070327424
+    second: "Sin t\xEDtulo 26_202505272316_18468_1"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -151,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: personaje1_1920x1080_0
+      name: player
       rect:
         serializedVersion: 2
-        x: 23
-        y: 246
-        width: 351
-        height: 539
+        x: 186
+        y: 25
+        width: 237
+        height: 562
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d2f46046e01819d0800000000000000
-      internalID: -2803472186929253672
+      spriteID: 8311797e54e38a4b0800000000000000
+      internalID: -5429020880836030152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personaje1_1920x1080_1
+      name: espresso
       rect:
         serializedVersion: 2
-        x: 397
-        y: 245
-        width: 351
-        height: 539
+        x: 580
+        y: 325
+        width: 92
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,74 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 922556a84017cb340800000000000000
-      internalID: 4880900360478478889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personaje1_1920x1080_2
-      rect:
-        serializedVersion: 2
-        x: 773
-        y: 246
-        width: 351
-        height: 539
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 808d060bcd2751930800000000000000
-      internalID: 4113320126850324488
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personaje1_1920x1080_3
-      rect:
-        serializedVersion: 2
-        x: 1147
-        y: 245
-        width: 359
-        height: 539
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b1405ed0c7fcc6570800000000000000
-      internalID: 8461365931638326299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: personaje1_1920x1080_4
-      rect:
-        serializedVersion: 2
-        x: 1525
-        y: 245
-        width: 351
-        height: 539
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 867c025d30bed43b0800000000000000
-      internalID: -5526502766020606104
+      spriteID: 086cbd6b5a298bd40800000000000000
+      internalID: 5600387377070327424
       vertices: []
       indices: 
       edges: []
@@ -264,7 +189,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a0a69ae6379373445ad61b4fe8eb5221
+    spriteID: a7f8433990091bb46a82aba32155448d
     internalID: 0
     vertices: []
     indices: 
@@ -274,11 +199,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      personaje1_1920x1080_0: -2803472186929253672
-      personaje1_1920x1080_1: 4880900360478478889
-      personaje1_1920x1080_2: 4113320126850324488
-      personaje1_1920x1080_3: 8461365931638326299
-      personaje1_1920x1080_4: -5526502766020606104
+      espresso: 5600387377070327424
+      player: -5429020880836030152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

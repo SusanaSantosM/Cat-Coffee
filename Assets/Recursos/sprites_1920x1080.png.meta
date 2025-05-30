@@ -531,7 +531,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_23
+      name: espressoListo
       rect:
         serializedVersion: 2
         x: 787
@@ -553,7 +553,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_24
+      name: afogato
       rect:
         serializedVersion: 2
         x: 911
@@ -575,7 +575,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_25
+      name: cafeCLFrio
       rect:
         serializedVersion: 2
         x: 1035
@@ -597,7 +597,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_26
+      name: cafeAmerFrio
       rect:
         serializedVersion: 2
         x: 1167
@@ -729,7 +729,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_32
+      name: crozantPlato
       rect:
         serializedVersion: 2
         x: 773
@@ -751,7 +751,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_33
+      name: crozant
       rect:
         serializedVersion: 2
         x: 997
@@ -773,7 +773,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_34
+      name: Plato
       rect:
         serializedVersion: 2
         x: 1155
@@ -795,7 +795,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_36
+      name: taza
       rect:
         serializedVersion: 2
         x: 1380
@@ -817,7 +817,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_37
+      name: cafeConLeche
       rect:
         serializedVersion: 2
         x: 808
@@ -839,7 +839,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_38
+      name: conCafe
       rect:
         serializedVersion: 2
         x: 993
@@ -861,7 +861,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_39
+      name: americano
       rect:
         serializedVersion: 2
         x: 1185
@@ -883,7 +883,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_40
+      name: vasoCh
       rect:
         serializedVersion: 2
         x: 1398
@@ -905,7 +905,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_41
+      name: jarraLl
       rect:
         serializedVersion: 2
         x: 1541
@@ -927,7 +927,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_42
+      name: jarraLlDeLado
       rect:
         serializedVersion: 2
         x: 1648
@@ -949,7 +949,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_46
+      name: vasoGr
       rect:
         serializedVersion: 2
         x: 819
@@ -971,7 +971,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_47
+      name: vasoConHielo
       rect:
         serializedVersion: 2
         x: 1002
@@ -993,7 +993,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_48
+      name: hieloConCafe
       rect:
         serializedVersion: 2
         x: 1187
@@ -1015,7 +1015,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_49
+      name: conHelado
       rect:
         serializedVersion: 2
         x: 1392
@@ -1037,10 +1037,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprites_1920x1080_50
+      name: espressoC
       rect:
         serializedVersion: 2
-        x: 1528
+        x: 1526
         y: 159
         width: 67
         height: 84
@@ -1073,6 +1073,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Gato1P: -7214356309639740156
+      Plato: -857632921837222113
       Sprites_1920x1080_0: 7746272236450239542
       Sprites_1920x1080_1: 8260430636168347968
       Sprites_1920x1080_11: 6033634243440521450
@@ -1083,38 +1084,33 @@ TextureImporter:
       Sprites_1920x1080_17: 2860265783155391321
       Sprites_1920x1080_18: 8881123221562449184
       Sprites_1920x1080_2: 709671245352358608
-      Sprites_1920x1080_23: -2313267953565347703
-      Sprites_1920x1080_24: 7517818484095396136
-      Sprites_1920x1080_25: -3113904052631339427
-      Sprites_1920x1080_26: 340432757460924502
       Sprites_1920x1080_27: 5415914424661217418
       Sprites_1920x1080_28: 2179105728044300689
       Sprites_1920x1080_3: 1446272431140025786
-      Sprites_1920x1080_32: -5568351634902729557
-      Sprites_1920x1080_33: 2698476244035712253
-      Sprites_1920x1080_34: -857632921837222113
       Sprites_1920x1080_35: 2295646058207079663
-      Sprites_1920x1080_36: -5988537602068960790
-      Sprites_1920x1080_37: 8550130776098670788
-      Sprites_1920x1080_38: 5787171758644851130
-      Sprites_1920x1080_39: 2041459223010398818
-      Sprites_1920x1080_40: -1462583534305769247
-      Sprites_1920x1080_41: -6268235443017958044
-      Sprites_1920x1080_42: -4021744297725638494
       Sprites_1920x1080_43: -2673421055833099243
       Sprites_1920x1080_44: 234868843930397712
       Sprites_1920x1080_45: -1580829020575424541
-      Sprites_1920x1080_46: -7083504488004026948
-      Sprites_1920x1080_47: 8307423536590868191
-      Sprites_1920x1080_48: 8460545415107691850
-      Sprites_1920x1080_49: 7465147298787999555
-      Sprites_1920x1080_50: 8240630120885244545
       Sprites_1920x1080_9: 392004591500870148
+      afogato: 7517818484095396136
+      americano: 2041459223010398818
+      cafeAmerFrio: 340432757460924502
+      cafeCLFrio: -3113904052631339427
+      cafeConLeche: 8550130776098670788
+      conCafe: 5787171758644851130
+      conHelado: 7465147298787999555
+      crozant: 2698476244035712253
+      crozantPlato: -5568351634902729557
+      espressoC: 8240630120885244545
+      espressoListo: -2313267953565347703
       gatoDespierto: -5387836255863253408
       gatoDuerme: -5480205087599188565
       gatoEstira: -4783213784953636121
       gatoMirando: -5474910739937790402
       gatoPatita: 7898654914188294943
+      hieloConCafe: 8460545415107691850
+      jarraLl: -6268235443017958044
+      jarraLlDeLado: -4021744297725638494
       monedasAbj: 2951578923215006531
       monedasArr: -3569368387328356890
       monedasDer: 7612157282410119701
@@ -1123,6 +1119,10 @@ TextureImporter:
       reloj5: -3891918925161429041
       reloj8: -3363616575239116084
       reloj9: 7528771273437258940
+      taza: -5988537602068960790
+      vasoCh: -1462583534305769247
+      vasoConHielo: 8307423536590868191
+      vasoGr: -7083504488004026948
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

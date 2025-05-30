@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 67c5fc4ed7c972944bb3bfb6c5a0f58a
+guid: 151134765b319a8418d50da581a6c900
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2803472186929253672
-    second: personaje1_1920x1080_0
+      213: -8170070278791700177
+    second: girl2_1920x1080_0
   - first:
-      213: 4880900360478478889
-    second: personaje1_1920x1080_1
+      213: -8640380755692999787
+    second: girl2_1920x1080_1
   - first:
-      213: 4113320126850324488
-    second: personaje1_1920x1080_2
+      213: -8541185549788109808
+    second: girl2_1920x1080_2
   - first:
-      213: 8461365931638326299
-    second: personaje1_1920x1080_3
+      213: 3351289281427381736
+    second: girl2_1920x1080_3
   - first:
-      213: -5526502766020606104
-    second: personaje1_1920x1080_4
+      213: -7051048384101174445
+    second: girl2_1920x1080_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 108
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -151,111 +151,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: personaje1_1920x1080_0
+      name: girl2_am
       rect:
         serializedVersion: 2
-        x: 23
-        y: 246
-        width: 351
-        height: 539
+        x: 71
+        y: 343
+        width: 315
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d2f46046e01819d0800000000000000
-      internalID: -2803472186929253672
+      spriteID: f21e4aa4e541e9e80800000000000000
+      internalID: -8170070278791700177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personaje1_1920x1080_1
+      name: girl2_tr
       rect:
         serializedVersion: 2
-        x: 397
-        y: 245
-        width: 351
-        height: 539
+        x: 443
+        y: 344
+        width: 315
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 922556a84017cb340800000000000000
-      internalID: 4880900360478478889
+      spriteID: 59b2ccc3b73371880800000000000000
+      internalID: -8640380755692999787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personaje1_1920x1080_2
+      name: girl2_feliz
       rect:
         serializedVersion: 2
-        x: 773
-        y: 246
-        width: 351
-        height: 539
+        x: 820
+        y: 344
+        width: 315
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 808d060bcd2751930800000000000000
-      internalID: 4113320126850324488
+      spriteID: 0142e20eefc977980800000000000000
+      internalID: -8541185549788109808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personaje1_1920x1080_3
+      name: girl2_emocionada
       rect:
         serializedVersion: 2
-        x: 1147
-        y: 245
-        width: 359
-        height: 539
+        x: 1194
+        y: 341
+        width: 315
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1405ed0c7fcc6570800000000000000
-      internalID: 8461365931638326299
+      spriteID: 8ed9d0778db228e20800000000000000
+      internalID: 3351289281427381736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personaje1_1920x1080_4
+      name: girl2_satisfecha
       rect:
         serializedVersion: 2
-        x: 1525
-        y: 245
-        width: 351
-        height: 539
+        x: 1566
+        y: 344
+        width: 315
+        height: 445
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 867c025d30bed43b0800000000000000
-      internalID: -5526502766020606104
+      spriteID: 353be8b4ad4a52e90800000000000000
+      internalID: -7051048384101174445
       vertices: []
       indices: 
       edges: []
@@ -264,7 +264,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a0a69ae6379373445ad61b4fe8eb5221
+    spriteID: 9867858694c4c07449f8db58d8067393
     internalID: 0
     vertices: []
     indices: 
@@ -274,11 +274,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      personaje1_1920x1080_0: -2803472186929253672
-      personaje1_1920x1080_1: 4880900360478478889
-      personaje1_1920x1080_2: 4113320126850324488
-      personaje1_1920x1080_3: 8461365931638326299
-      personaje1_1920x1080_4: -5526502766020606104
+      girl2_am: -8170070278791700177
+      girl2_emocionada: 3351289281427381736
+      girl2_feliz: -8541185549788109808
+      girl2_satisfecha: -7051048384101174445
+      girl2_tr: -8640380755692999787
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
