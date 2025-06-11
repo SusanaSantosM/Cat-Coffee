@@ -97,17 +97,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125663458262529442}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40a754838f05ed8409fd4a00cc460268, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duracionEmocion: 2
-  duracionAnimacionSalirFeliz: 1.5
-  duracionAnimacionSalirTriste: 1.5
-  configuracionMenu: {fileID: 11400000, guid: aec68a8f167e8454781e1171ff9acf8f, type: 2}
-  burbujaDialogoSR: {fileID: 4883035194515799072}
-  iconoBebida: {fileID: 0}
+  pedidoActual: {fileID: 0}
+  burbujaPedidoSprite: {fileID: 0}
+  animadorCliente: {fileID: 0}
+  animacionFeliz: ClienteFeliz
+  animacionMolesto: ClienteMolesto
 --- !u!95 &3134513267481751988
 Animator:
   serializedVersion: 7
@@ -146,7 +145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8460160092217682280
 Transform:
   m_ObjectHideFlags: 0
@@ -206,7 +205,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 11
   m_Sprite: {fileID: -5481662489327269735, guid: e2b7039a1852aa445a1e593de152c72e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -245,7 +244,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8460160092217682280}
@@ -293,15 +292,15 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_SortingOrder: 12
+  m_Sprite: {fileID: 340432757460924502, guid: ee37bdf7580669146b909aeef00a2034, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.8796296, y: 1.2037038}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
