@@ -11,13 +11,11 @@ public class SpawnerCliente : MonoBehaviour
         InvokeRepeating("SpawnearCliente", 2f, tiempoEntreClientes);
     }
 
-    void SpawnearCliente()
-    {
         int clienteIndex = Random.Range(0, prefabsClientes.Length);
         int puntoIndex = Random.Range(0, puntosSpawn.Length);
 
-        Instantiate(prefabsClientes[clienteIndex],
-                   puntosSpawn[puntoIndex].position,
+        GameObject newClientObj = Instantiate(prefabsClientes[clienteIndex],
+                                               SpawnPoint[puntoIndex].position,
                    Quaternion.identity);
     }
 }
