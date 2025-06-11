@@ -590,7 +590,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "M\xFAsica"
+  m_text: Music
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
   m_sharedMaterial: {fileID: -8062691179570853150, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
@@ -779,7 +779,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 324, y: -135}
+  m_AnchoredPosition: {x: 228, y: -127}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &645232040
@@ -1145,7 +1145,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Efectos
+  m_text: Sounds
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
   m_sharedMaterial: {fileID: -8062691179570853150, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
@@ -1281,7 +1281,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jugar
+  m_text: Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
   m_sharedMaterial: {fileID: -8062691179570853150, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
@@ -1496,7 +1496,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ayuda
+  m_text: Help
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
   m_sharedMaterial: {fileID: -8062691179570853150, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
@@ -1775,7 +1775,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 324, y: -135}
+  m_AnchoredPosition: {x: 271, y: -144}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1031492965
@@ -2062,7 +2062,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Opciones
+  m_text: Setting
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
   m_sharedMaterial: {fileID: -8062691179570853150, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
@@ -2640,8 +2640,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -383, y: -110.48}
-  m_SizeDelta: {x: 949.51, y: -490.96}
+  m_AnchoredPosition: {x: -277.67, y: -94.264}
+  m_SizeDelta: {x: 785.52, y: -232.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1514688625
 MonoBehaviour:
@@ -2738,7 +2738,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Salir
+  m_text: Quit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
   m_sharedMaterial: {fileID: -8062691179570853150, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
@@ -2893,8 +2893,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -383, y: -110.48}
-  m_SizeDelta: {x: 949.51, y: -490.96}
+  m_AnchoredPosition: {x: -280, y: -94}
+  m_SizeDelta: {x: 780.85, y: -232.3065}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1588939937
 MonoBehaviour:
@@ -3353,7 +3353,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4, y: 69}
+  m_AnchoredPosition: {x: -4, y: 42}
   m_SizeDelta: {x: 600, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1785373818
@@ -3376,8 +3376,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Selecciona los objetos para completar los pedidos de los clientes y ganar
-    monedas.
+  m_text: Select items to complete customer orders and earn coins.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
   m_sharedMaterial: {fileID: -8062691179570853150, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
@@ -3495,8 +3494,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -383, y: -110}
-  m_SizeDelta: {x: 949.5142, y: -491.92908}
+  m_AnchoredPosition: {x: -274, y: -78.214905}
+  m_SizeDelta: {x: 777.6446, y: -275.632}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1874901854
 MonoBehaviour:
@@ -3594,7 +3593,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 177}
+  m_AnchoredPosition: {x: 2, y: 154}
   m_SizeDelta: {x: 580, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1956606914
@@ -3617,7 +3616,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Instrucciones
+  m_text: Instructions
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
   m_sharedMaterial: {fileID: -8062691179570853150, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
@@ -3730,7 +3729,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 156}
+  m_AnchoredPosition: {x: 2, y: 135}
   m_SizeDelta: {x: 350, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039771869
@@ -3753,7 +3752,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Opciones
+  m_text: Options
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}
   m_sharedMaterial: {fileID: -8062691179570853150, guid: 456543a578c3c6247a078cd63484a5b6, type: 2}

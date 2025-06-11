@@ -2,20 +2,23 @@ using UnityEngine;
 
 public class SpawnerCliente : MonoBehaviour
 {
-    public GameObject[] prefabsClientes; // Arrastra tus prefabs de clientes
-    public Transform[] puntosSpawn;
-    public float tiempoEntreClientes = 30f;
+    public GameObject[] prefabsClientes; // Arrastra los prefabs de clientes
+    public Transform[] SpawnPoint;
+    public float timeToTakeOrder = 60f;
 
-    void Start()
+   /* void Start()
     {
-        InvokeRepeating("SpawnearCliente", 2f, tiempoEntreClientes);
+        InvokeRepeating("SpawnearCliente", 2f, timeToTakeOrder);
     }
 
+    void SpawnearCliente()
+    {
         int clienteIndex = Random.Range(0, prefabsClientes.Length);
-        int puntoIndex = Random.Range(0, puntosSpawn.Length);
+        int puntoIndex = Random.Range(0, SpawnPoint.Length);
 
-        GameObject newClientObj = Instantiate(prefabsClientes[clienteIndex],
-                                               SpawnPoint[puntoIndex].position,
+        Instantiate(prefabsClientes[clienteIndex],
+                   SpawnPoint[puntoIndex].position,
                    Quaternion.identity);
     }
+   */
 }
