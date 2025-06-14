@@ -23,4 +23,20 @@ public class LevelManager : MonoBehaviour
         // Redirigir a una URL externa (ej: tu web personal)
     }
 
+    public void BotonBack() 
+    {
+        // Vuelve a la escena del menú
+        SceneManager.LoadScene(0);
+    }
+
+    public void BotonReset()
+    {
+        PlayerPrefs.DeleteAll(); // Borra configuración de volumen u otras flags
+        SaveSystem.DeleteSave(); // Borra datos binarios guardados como las coins
+
+        Debug.Log("Datos de la demo reiniciados.");
+
+        // Opcional: volver al menú o reiniciar la escena del juego
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Recarga la escena actual
+    }
 }

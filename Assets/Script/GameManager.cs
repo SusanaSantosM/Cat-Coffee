@@ -24,8 +24,16 @@ public class GameManager : MonoBehaviour
     private int coins = 0;
     private bool gameRunning = true;
 
+    private PlayerData playerData;
+
     void Start()
     {
+        // Sistema de guardado
+        playerData = SaveSystem.Load();
+        coins = playerData.coins;
+        //timer = playerData.timerRemaining;
+        coinText.text = "Coins: " + coins;
+
         SpawnNextCustomer();
     }
 
@@ -39,6 +47,7 @@ public class GameManager : MonoBehaviour
         if (timer <= 0)
         {
             gameRunning = false;
+            SaveGame();
             orderText.text = "Time's up!";
             feedbackText.text = "";
             if (currentCustomer != null) Destroy(currentCustomer);
@@ -148,5 +157,20 @@ public class GameManager : MonoBehaviour
     }
 
 
+    public void SaveGame()
+    {
+        /*
+        PlayerData data = new PlayerData(
+            coins,
+            timer,
+            currentOrder != null ? currentOrder.drinkName : "",
+            new List<string>(selectedIngredients)
+        );*/
 
+        PlayerData data = new PlayerData(
+            coins
+        );
+
+        SaveSystem.Save(data);
+    }
 }
