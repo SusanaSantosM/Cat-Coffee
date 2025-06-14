@@ -17,7 +17,7 @@ public class PanelManager : MonoBehaviour
     public AudioSource fxsource;
     public AudioClip clickSound;
 
-    
+
     private void Awake()
     {
         volumeFx.onValueChanged.AddListener(ChangeVolumeFx);
@@ -26,17 +26,28 @@ public class PanelManager : MonoBehaviour
 
 
     // Controla los paneles que se verán según su selección
-    public void OpenPanel(GameObject panel) 
-    { 
+    public void OpenPanel(GameObject panel)
+    {
         MainPanel.SetActive(false);
         OptionPanel.SetActive(false);
         HelpPanel.SetActive(false);
 
+        // Guardar configuración si se está cerrando el panel de opciones
+        if (!OptionPanel.activeSelf && panel != OptionPanel)
+        {
+            PlayerSettings settingsManager = Object.FindFirstObjectByType<PlayerSettings>();
+            if (settingsManager != null)
+            {
+                settingsManager.SaveSettings();
+            }
+        }
+
         panel.SetActive(true);
         PlaySoundButton();
+
     }
 
-    
+
     public void ChangeVolumeMaster(float v)
     {
         mixer.SetFloat("VolMaster", v);
@@ -48,7 +59,7 @@ public class PanelManager : MonoBehaviour
     }
 
 
-    public void PlaySoundButton() 
+    public void PlaySoundButton()
     {
         fxsource.PlayOneShot(clickSound);
     }
