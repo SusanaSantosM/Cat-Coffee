@@ -4608,6 +4608,15 @@ MonoBehaviour:
     ingredients:
     - Vanila
     - Coffee
+  backgroundMusic: {fileID: 415913836}
+  interactionButtons:
+  - {fileID: 853481793}
+  - {fileID: 1672327014}
+  - {fileID: 1614885986}
+  - {fileID: 792360489}
+  - {fileID: 394918934}
+  - {fileID: 478441886}
+  - {fileID: 1472574766}
   timer: 60
 --- !u!1 &1801753538
 GameObject:

@@ -14,6 +14,12 @@ public class GameManager : MonoBehaviour
     public GameObject[] customerPrefabs; // Prefabs de clientes
     public List<DrinkOrder> orderList;   // Bebidas
 
+    [Header("Audio Settings")]
+    public AudioSource backgroundMusic; // AudioSource
+
+    [Header("UI Buttons")]
+    public Button[] interactionButtons; // botones interactivos
+
     private int lastOrderIndex = -1;
 
     private GameObject currentCustomer;
@@ -50,6 +56,19 @@ public class GameManager : MonoBehaviour
             SaveGame();
             orderText.text = "Time's up!";
             feedbackText.text = "";
+
+            // Detener la música
+            if (backgroundMusic != null && backgroundMusic.isPlaying)
+            {
+                backgroundMusic.Stop();
+            }
+
+            // Desactivar todos los botones
+            foreach (Button btn in interactionButtons)
+            {
+                btn.interactable = false;
+            }
+
             if (currentCustomer != null) Destroy(currentCustomer);
         }
     }
