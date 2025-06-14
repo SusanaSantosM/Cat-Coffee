@@ -17,6 +17,11 @@ public class GameManager : MonoBehaviour
     [Header("Audio Settings")]
     public AudioSource backgroundMusic; // AudioSource
 
+    [Header("Sound Effects")]
+    public AudioClip wrongIngredientSound; // Sonido al equivocarse
+    public AudioClip wrongOrderSound;     // Sonido al enviar pedido incorrecto
+    private AudioSource soundEffects;     // AudioSource para efectos
+
     [Header("UI Buttons")]
     public Button[] interactionButtons; // botones interactivos
 
@@ -39,6 +44,11 @@ public class GameManager : MonoBehaviour
         coins = playerData.coins;
         //timer = playerData.timerRemaining;
         coinText.text = "Coins: " + coins;
+
+        // Configurar AudioSource para efectos
+        soundEffects = gameObject.AddComponent<AudioSource>();
+        soundEffects.playOnAwake = false;
+        soundEffects.volume = 0.7f;
 
         SpawnNextCustomer();
     }
@@ -84,6 +94,12 @@ public class GameManager : MonoBehaviour
         else
         {
             Debug.Log($"{ingredient} added — ❌ Incorrect (not in order)");
+
+            // Reproducir sonido de error
+            if (wrongIngredientSound != null && soundEffects != null)
+            {
+                soundEffects.PlayOneShot(wrongIngredientSound);
+            }
         }
     }
 
@@ -91,6 +107,8 @@ public class GameManager : MonoBehaviour
 
     public void SubmitDrink()
     {
+        if (!gameRunning) return;
+
         if (CompareLists(currentOrder.ingredients, selectedIngredients))
         {
             coins = coins + 5;
@@ -101,10 +119,19 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            coins = Mathf.Max(0, coins - 5);
+            coinText.text = "Coins: " + coins;
             Debug.Log("❌ Drink submitted — Ingredients incorrect.");
+
+            // Reproducir sonido de pedido incorrecto
+            if (wrongOrderSound != null && soundEffects != null)
+            {
+                soundEffects.PlayOneShot(wrongOrderSound);
+            }
         }
 
         selectedIngredients.Clear();
+        //SaveGame();
     }
 
 

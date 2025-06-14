@@ -4580,8 +4580,8 @@ MonoBehaviour:
   - {fileID: 125663458262529442, guid: e4440550021bd1141b6c87f50505d8ab, type: 3}
   - {fileID: 6076360095378970958, guid: b4380528b3d21be4ea3c2b46d2a1d0ed, type: 3}
   - {fileID: 4446338394061137029, guid: 0063170faf311414f88e991e583fe73f, type: 3}
-  - {fileID: 2551917464070180327, guid: 9b489683945942e4e923840fca3d8cfb, type: 3}
   - {fileID: 2706986129771220712, guid: eabcb66a4beb7e64fa0334c402175cd2, type: 3}
+  - {fileID: 2551917464070180327, guid: 9b489683945942e4e923840fca3d8cfb, type: 3}
   orderList:
   - drinkName: Espresso
     ingredients:
@@ -4609,6 +4609,8 @@ MonoBehaviour:
     - Vanila
     - Coffee
   backgroundMusic: {fileID: 415913836}
+  wrongIngredientSound: {fileID: 8300000, guid: 0644821e6552f1443819a7d5c8289dd8, type: 3}
+  wrongOrderSound: {fileID: 8300000, guid: f1e6f870ed3fb764aba28db600e3a761, type: 3}
   interactionButtons:
   - {fileID: 853481793}
   - {fileID: 1672327014}

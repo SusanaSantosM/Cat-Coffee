@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8158200484511924787}
   - component: {fileID: 3423610454528262259}
   - component: {fileID: 8070600792400862656}
+  - component: {fileID: 1627622784502852217}
   m_Layer: 0
   m_Name: ClienteG2
   m_TagString: Untagged
@@ -100,8 +101,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40a754838f05ed8409fd4a00cc460268, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pedidoActual: {fileID: 0}
-  burbujaPedidoSprite: {fileID: 0}
-  animadorCliente: {fileID: 0}
+  order: {fileID: 0}
+  animatorCustomer: {fileID: 0}
   animacionFeliz: ClienteFeliz
   animacionMolesto: ClienteMolesto
+--- !u!95 &1627622784502852217
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2551917464070180327}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: caf31d7f50798724788aa648c075d561, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
